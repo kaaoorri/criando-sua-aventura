@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>A Jornada do Cristal Perdido.</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em uma aldeia cercada de montanhas, circulam histórias sobre um cristal perdido, escondido em uma caverna antiga. Dizem que ele concede um desejo a quem achar.</p>
+            <button class="btn-proximo" data-proximo="1">Mapa em mãos, atravessa florestas densas e enfrenta criaturas místicas.</button>
+            <button class="btn-proximo" data-proximo="2">Continuar na aldeia e ficar na curiosidade de achar o Cristal.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.jpg" alt="">
+            <p>Durante a jornada, encontra aliados inesperados: uma elfa sábia e um guerreiro destemido. Ao chegar à caverna, um enigma guardado por um dragão impede a passagem.</p>
+            <button class="btn-proximo" data-proximo="3">Resolver o enigma para atravessar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2-voltar-pra-vila.jpg" alt="voltando pra vila e desistindo dav aventura">
+            <p>Infelizmente sua aventura se encerrou e você preferiu continuar na Vila.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3-cristal-perdido.jpg" alt="encontrando o cristal perdido">
+            <p>Ao final, o cristal brilha intensamente, revelando não apenas um desejo, mas o verdadeiro valor da amizade e da coragem.</p>
+            <button class="btn-proximo" data-proximo="4">Qual seria seu desejo?</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

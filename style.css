@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(147, 106, 175);
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(145, 101, 174);
+    color: white;
+    font-family: "Source Code Pro", monospace;
+
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
